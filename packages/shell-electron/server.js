@@ -16,6 +16,7 @@ const io = new Server(httpServer, {
 app.get('/', function (req, res) {
   const hookContent = fs.readFileSync(path.join(__dirname, '/build/hook.js'), 'utf8')
   const backendContent = fs.readFileSync(path.join(__dirname, '/build/backend.js'), 'utf8')
+
   res.send([hookContent, backendContent].join('\n'))
 })
 

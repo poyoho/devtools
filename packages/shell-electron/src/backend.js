@@ -6,6 +6,7 @@ import { Bridge, target } from '@vue-devtools/shared-utils'
 const host = target.__VUE_DEVTOOLS_HOST__ || 'http://localhost'
 const port = target.__VUE_DEVTOOLS_PORT__ !== undefined ? target.__VUE_DEVTOOLS_PORT__ : 8098
 const fullHost = port ? host + ':' + port : host
+
 const createSocket = target.__VUE_DEVTOOLS_SOCKET__ || io
 const socket = createSocket(fullHost)
 
