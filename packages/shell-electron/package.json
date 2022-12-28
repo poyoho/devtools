@@ -1,5 +1,5 @@
 {
-  "name": "@vue/devtools",
+  "name": "@poyoho/vue-devtools",
   "version": "6.4.5",
   "description": "StandAlone vue-devtools",
   "repository": {
@@ -8,7 +8,7 @@
     "directory": "packages/shell-electron"
   },
   "bin": {
-    "vue-devtools": "./bin.js"
+    "vue-devtools-compat": "./bin.js"
   },
   "main": "index.js",
   "types": "types/index.d.ts",

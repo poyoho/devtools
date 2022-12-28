@@ -1,17 +1,19 @@
 # vue-remote-devtools
 
+!!! just build for compat
+
 > This package provides a standalone vue-devtools application, that can be used to debug any Vue app regardless of the environment. Now you can debug your app opened in mobile browser, safari, native script etc. not just desktop chrome or firefox.
 
 ### :cd: Installation
 
 Install the package globally:
 ```bash
-npm install -g @vue/devtools
+npm install -g @poyoho/vue-devtools
 ```
 
 Or locally as project dependency:
 ```bash
-npm install --save-dev @vue/devtools
+npm install --save-dev @poyoho/vue-devtools
 ```
 
 ### :rocket: Usage
@@ -20,7 +22,7 @@ npm install --save-dev @vue/devtools
 
 Once you installed the package globally, run:
 ```bash
-vue-devtools
+vue-devtools-compat
 ```
 
 Then add:
